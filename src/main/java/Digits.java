@@ -9,7 +9,7 @@ public class Digits
 	{ /* to be implemented in part (a) */ 
 	
 		while(num>0){
-			digitList.add(num%10,0);
+			digitList.add(0,num%10);
 			num = num/10;
 		}
 	    
